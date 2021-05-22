@@ -1,0 +1,10 @@
+@use '/styles/abstracts/vars';
+
+.header {
+    background-color: vars.$color_gray_light;
+    padding: 1rem;
+    color: vars.$color_black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
